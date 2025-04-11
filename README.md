@@ -1,2 +1,3 @@
-# portal-chat
-Real-time чат с возможностями общения в реальном времени, создания каналов для группового общения, назначения роли администратора чата.
+# Lama Dev Chat App Starter template
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: rgba(17, 25, 40, 0.626);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.containerBlock {
+   width: max-content;
+   height: max-content;
+   border-radius: 10px;
+   padding: 80px 60px;
+   position: relative;
+   background-color: rgba(17, 25, 40, 0.984);
+}
+
+.title {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+ .buttonSearch {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+
+ .user {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+
+ .buttonAdd {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+
+.closeButton {
+   cursor: pointer;
+   width: 30px;
+   transform: rotate(45deg);
+   position: absolute;
+   top: -40px;
+   right: -50px;
+}
+
+
+
+ 

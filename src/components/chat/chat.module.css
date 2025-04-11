@@ -1,0 +1,186 @@
+.container {
+    flex: 2;
+    border-left: 1px solid #dddddd35;
+    border-right: 1px solid #dddddd35;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd35;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userTextBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.UserName {
+   font-size: 18px;
+   font-weight: bold; 
+}
+
+.userText {
+    font-size: 14px;
+    font-weight: 300; 
+    color: #a5a5a5;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.center {
+    padding: 20px;
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.center::-webkit-scrollbar {
+    width: 7px;
+    background-color: none;
+  }
+  
+.center::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color: rgb(31, 31, 57);
+  }
+  
+.center::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    background-color: none;
+  }
+
+  .message {
+    max-width: 70%;
+    display: flex;
+    gap: 20px;
+  }
+
+  .messageOwn {
+    align-self: flex-end;
+
+    .messageText {
+        p {
+            background-color: #5183fe;
+        }
+    }
+  }
+
+  .messageAvatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .messageText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    p {
+        padding: 20px;
+        background-color: rgba(17, 25, 40, 0.3);
+        border-radius: 10px;
+    }
+
+    span {
+        font-size: 13px;
+    }
+  }
+
+  .messageImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .refScroll {
+    width: 111px;
+    height: 111px;
+  }
+
+.bottom {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #dddddd35;
+    gap: 20px;
+    margin-top: auto;
+}
+
+.input {
+    flex:1;
+    background-color: rgba(17,25,40, 0.5);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
+
+.sendButton {
+    background-color: #5183fe;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+    &:disabled {
+        background-color: #5182fe9e;
+        cursor: not-allowed;
+    }
+}
+
+.emoji {
+    position:relative;
+}
+
+.picker {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
